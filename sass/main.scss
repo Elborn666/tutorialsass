@@ -1,5 +1,7 @@
+@import "./normalaiz";
+@import './variebl';
 .section {
-    background-color: green;
+    background-color: $color-bg;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5;
@@ -9,7 +11,7 @@
     }
 }
 .section__text {
-    color: black;
+    color: $color-tx;
     &:hover {
         color: white;
     }
