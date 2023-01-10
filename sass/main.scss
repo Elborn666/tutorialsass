@@ -1,0 +1,16 @@
+.section {
+    background-color: green;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 15px 15px;
+    &:hover {
+        color: red;
+    }
+}
+.section__text {
+    color: black;
+    &:hover {
+        color: white;
+    }
+}
